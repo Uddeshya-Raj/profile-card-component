@@ -1,0 +1,110 @@
+
+body{
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.background-frame{
+  height: 100%;
+  background-color: rgb(25,161,173);
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/background.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.card{
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0 0 50px rgb(19,129,146);
+  box-shadow: 0 0 50px rgba(19,129,146,0.7);
+  box-shadow: 0 0 50px hsl(227, 10%, 46%);
+}
+.card-body{
+  height: 75%;
+  position: relative;
+}
+.victor-image{
+  position: absolute;
+  left: 121px;
+  top: 77.25px;
+  border: solid 6px white;
+  border-radius: 100%;
+}
+.intro{
+  padding-top: 50px;
+  line-height: 0.8;
+}
+.name{
+  font-size: 1.1em;
+  font-weight: 700;
+}
+.number{
+  padding: 5px;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: gray;
+  color: hsl(0, 0%, 59%);
+}
+.place{
+  font-size: 0.9em;
+  color: gray;
+  color: hsl(0, 0%, 59%);
+}
+.upper-body{
+  height: 50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  background-color: rgb(25,161,173);
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-card.svg");
+}
+.card-background{
+  overflow: hidden;
+}
+.lower-body{
+  height: 50%;
+}
+.card-footer{
+  border-top: solid 1px rgb(233,233,233);
+  height: 25%;
+  padding: 0 20px;
+  text-align: center;
+  display: flex;
+}
+.footer-element{
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+  justify-content: space-around;
+}
+.footer-element-value{
+  font-size: 1.1em;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.footer-element-catagory{
+  font-size: 0.7em;
+  color: gray;
+  color: hsl(0, 0%, 59%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+  color: hsl(228, 45%, 44%);
+}
